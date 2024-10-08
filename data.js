@@ -39,7 +39,7 @@ const initialFacts = [
     votesInteresting: 8,
     votesMindblowing: 3,
     votesFalse: 1,
-    createdIn: 2015,
+    createdIn: 2015, 
   },
 ];
 
