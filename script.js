@@ -13,5 +13,14 @@ btn.addEventListener('click', function() {
 
 let votesInteresting = 24 //Changable variable because of let
 let votesMindBlowing = 9 //Changable variable because of let
+const fact = "Lisbon is a capital of Portugal" //Unchnangable variable because of let 
 
-const fact = "Lisbon is a capital of Portugal" //Unchnangable variable because of let
+function calcFactAge(year){
+    const age = new Date().getFullYear() - year;
+    if(age >= 0){
+        return age;
+    }
+    else {
+        return "invalid year!"
+    }
+} 
